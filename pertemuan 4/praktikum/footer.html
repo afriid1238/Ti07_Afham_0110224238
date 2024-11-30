@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan es krim</title>
+</head>
+<body>
+    <fieldset>
+        <legend> Form Pesan es krim</legend>
+
+        <h1>Selamat Datang di Tohaga Es Krim</h1>
+        <p>Silahkan Isi Pesanan anda disini</p>
+
+        <form action="">
+            <table>
+                <head>
+                    <tr>
+                        <td>Informasi anda</td>
+                    </tr>
+                </head>
+                <body>
+                    <tr>
+                        <td><label for="Nama">Nama :</label></td>
+                        <td><input type="text"Id="Nama" name="Nama" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Alamat">Alamat :</label></td>
+                        <td><input type="text"Id="Alamat" name="Alamat" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Notelp">No Telepon :</label></td>
+                        <td><input type="number"Id="Notelp" name="Notelp" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email :</label></td>
+                        <td><input type="email" Id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="note">Notes pemesanan :</label></td>
+                        <td><input type="note" Id="note" required
+                            placeholder="Tidak lebih dari 400 karakter"></td>
+                    </tr>
+                </body>
+            </table>
+
+            <h4>pilih salah satu</h4>
+
+            <label for="crust">crust</label><br>
+
+            <input type="radio" id="crust" name="crust" value="3 in 1">
+            <label for="3 in 1">Es krim 8 liter 3 in 1</label><br>
+            <input type="radio" id="crust" name="crust" value="coklat">
+            <label for="cs">Es krim 8 liter coklat</label><br>
+            <input type="radio" id="crust" name="crust">
+            <label for="cs">Es krim 8 liter vanila</label><br>
+            <input type="radio" id="crust" name="crust">
+            <label for="cs">Es krim 8 liter strawberry</label><br>
+            
+            <h4>number</h4>
+            <label for="">Pesan Es krim</label>
+            <input type="number" min="1" max="10">
+            <br><br>
+
+            <button type="submit" value="pesan">pesan sekarang</button>
+            <button type="reset" value="reset">reset</button>
+        </form>
+
+    </fieldset>
+</body>
+</html>

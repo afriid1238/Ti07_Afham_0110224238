@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan</title>
+</head>
+<body>
+    <h1>Terima Kasih!</h1>
+    <p>Terima kasih sudah memesan es krim di Tohaga es krim! have a nice day</p>
+
+    <h4>pesanan</h4>
+    <script>
+        const urlParams = newURLSeacrhParams(window.location.search);
+        const Nama = urlParams.get("nama");
+        const Alamat = urlParams.get("Alamat");
+
+        document.write(`<p>nama: ${nama}</p>`);
+        document.write(`<p>Alamat: ${Alamat}</p>`);
+    </script>
+</body>
+</html>

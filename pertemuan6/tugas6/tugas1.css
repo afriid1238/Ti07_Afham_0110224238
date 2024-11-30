@@ -1,0 +1,40 @@
+body {
+    margin-left: 50px;
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+    border: 1px  solid black;
+    margin: 20px;
+}
+
+.green {
+    background-color: green;
+    width: 1110px;
+
+}
+
+.yellow1 {
+    background-color: yellow;
+}
+
+.yellow2 {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    top: 221px;
+    width: 825px;
+    right: 70px;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: 441px;
+    width: 825px;
+    right: 70px;
+}
