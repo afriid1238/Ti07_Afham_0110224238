@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginForm" onsubmit="login()">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit" value="Login">Login</button>
+        <button type="reset" value="Batal">Batal</button>
+    </form>
+
+    <!-- Program Javascript -->
+    <script>
+        function login() {
+            // menngambil nilai username dan password dari form
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("password").value;
+            let form = document.getElementById("loginForm");
+
+            if (user == "Afriid" && pass == "12345"){
+                alert("Login Berhasil");
+                form.setAttribute("action,", "login.html");
+            } else{
+                alert("Login Gagal, Coba Lagi!");
+            }
+        }
+    </script>
+</body>
+</html>
