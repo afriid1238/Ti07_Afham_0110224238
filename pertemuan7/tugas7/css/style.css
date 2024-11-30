@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+  }
+  
+  .container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: green;
+    padding: 20px;
+  }
+  
+  header, footer {
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  aside {
+    background-color: red;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+  
+  article {
+    background-color:blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 150px;
+    width: 600px;
+    margin: 10px;
+  }
+  .paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .img{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  img {
+    width: 100px;
+    height: 150px;
+  }
+  
